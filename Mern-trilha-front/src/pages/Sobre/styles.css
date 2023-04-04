@@ -1,0 +1,287 @@
+/* Parte da Descrição da Marca*/
+
+.parte1 {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    height: 320px;
+    flex-direction: row;
+    justify-content: center;
+    background: black;
+    
+}
+    
+.seção2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.nossamarca{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background: black;
+    
+   
+   
+}
+.nossamarca h1{
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    font-size: 40px; 
+    font-family: 'Open Sans';
+    margin-top: -10%;
+    background: black;
+    box-shadow: 0px 10px 10px 20px black;
+}
+
+.quadrado {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    height: 200px;
+    width: 80vw;
+    top: 10%;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
+    box-shadow: 0 0 0 2px #e7cd10;
+    
+}
+.quadrado p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: larger;
+    
+    
+}
+.quadrado img{
+    height: 30%;
+    width: 7%;
+    position: absolute;
+    top: 85%;
+    background: black;
+    box-shadow: 0px 10px 10px 20px black;
+   
+}
+
+/* Parte da Descrição do Projeto*/
+.parte2{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.divisão{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.Retangulo{
+    height: 100% ;
+    width: 100%;
+    background-color: #FFD600;
+}
+
+.Cachoeira{
+    display: flex;
+    position: relative;
+    height:55vh;
+    width:41vw;
+    margin-bottom: 20%;
+    right: 20%;
+    
+}
+
+.blocoAmarelo4{
+    position: absolute;
+    display: flex;
+    width: 12%;
+    height: 75%;
+    top: 0%;
+    left: 17%;
+    background-color: #FFD600;
+}
+
+.projeto{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    flex-wrap: wrap;  
+    height:80%;  
+    width: 45%;
+    left: 50%;
+    margin-top: 8.5%;
+}
+
+.projeto img{
+    margin-left: 19%;
+    margin-top: 3%;
+    Width:36.5vw;
+    height: 0.5%;
+}
+.projeto H1{
+    display: flex;
+    font-size: clamp(15px, 10px + 2vw, 45px);
+    color:#8C7C07 ;
+    margin-left: 4%;
+    
+}
+.projeto p{
+    color:#423A3A ;
+    font-size: clamp(0.3rem, 0.8rem + 1vw, 5rem);
+    text-align: justify;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+.Cachoeira img{
+    
+    position:absolute;
+    width: 35vw;
+    height: 35vh;
+    width: 100%;
+    height: 85%;
+    top: 5%;
+    left: 23%;
+    margin-top: 5%;
+    
+}
+
+
+/* informações*/
+.info{
+    display: flex;
+    margin-top: 2%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #32313148;;
+    
+}
+.seção{
+    flex-direction: row;
+    width: 530px;
+    padding: 1%;
+   
+}
+.seção-2{
+    flex-direction: row;
+    width: 530px;
+    padding: 1%;
+   
+}
+/*Parceiros*/
+.Parceiros{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    margin-top: 16%;
+    
+}
+
+.Parceiros H1{
+    display: flex;
+    font-size: clamp(20px, 10px + 2vw, 45px);
+    color:#FFD600 ;
+    justify-content: center;
+    
+}
+.Parceiros p{
+    
+    font-size: larger;
+    text-align: justify;
+}
+
+.Parceiros img{
+    width: 100%;
+    height: 100%;
+    margin-right:3%;
+    
+}
+
+.vermais {
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #FFD600;
+    background-color:#323131; 
+    border: 0;
+}
+.vermais:hover{
+    text-decoration: none;
+    color:#323131;
+    background-color: #FFD600;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+/*Regioes*/
+.Regioes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    margin-top: 16%;
+}
+.Regioes H1{
+    display: flex;
+    font-size: clamp(20px, 10px + 2vw, 45px);
+    color:#FFD600 ;
+    justify-content: center;
+}
+.lup{
+    flex-wrap: wrap;   
+}
+.Regioes p{
+    font-size: larger;
+    text-align: justify;
+}
+.Regioes img{
+    width: 100%;
+    height: 100%;
+    margin-right:3%;  
+
+}
+.vermais2 {
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #FFD600;
+    background-color:#323131; 
+    border: 0;
+}
+.vermais2:hover{
+    text-decoration: none;
+    color:#323131;
+    background-color: #FFD600;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+
+/*Icones*/
+.icones{
+    font-size: 30px;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content:center;
+    align-items: center;
+
+}

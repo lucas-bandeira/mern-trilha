@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+/*Titulo central do site*/
+.Titulo {
+    display: flex;
+
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 10px;
+
+    width: 100%;
+    height: calc(100vh - 385px);
+    font-size: clamp(40px, 10px + 3vw, 55px);
+    background-color: rgba(0, 0, 0, 0.221);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(0.8px);
+}
+
+.p {
+
+    max-width: 400px;
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
+    margin: 10% 0px 0px 5%;
+    align-items: center;
+
+    font-weight: bold;
+    position: absolute;
+
+}
+
+.p1 {
+    display: flex;
+    position: relative;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    max-width: 480px;
+    max-height: 100px;
+    margin: 10% 0px 0px 12%;
+    color: #FFD600;
+
+}
+
+/*corpo do site*/
+.main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+
+}
+
+/*primeiros campos do site*/
+
+.feed-Home {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 25px;
+
+}
+
+.areabrasilia {
+    color: #FFD600;
+    background-color: #323131;
+    height: 200px;
+    width: 250px;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.areabrasilia:hover {
+    text-decoration: none;
+    color: #323131;
+    background-color: #FFD600;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.areacafuringa {
+    color: #FFD600;
+    background-color: #323131;
+    height: 200px;
+    width: 250px;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.areacafuringa:hover {
+    text-decoration: none;
+    color: #323131;
+    background-color: #FFD600;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.areauniao {
+    color: #FFD600;
+    background-color: #323131;
+    height: 200px;
+    width: 250px;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.areauniao:hover {
+    text-decoration: none;
+    color: #323131;
+    background-color: #FFD600;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+/*campo que tem o mapa e outras funcionalidades*/
+.trilhas {
+    display: flex;
+    flex-direction: row;
+    padding: 2% auto;
+    margin-top: 1%;;
+    height: 100%;
+    width: 100%;
+    font-size: clamp(20px, 10px + 3vw, 40px);
+}
+
+.trilhas b {
+    margin-left: 2%;
+
+}
+
+.trilhas img {
+    margin-left: -40%;
+    margin-top: 20%;
+    Width: 150px;
+    height: 2px;
+    left: 65px;
+    top: 1100px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px auto;
+    margin: 2%;
+    height: 100%;
+    width: 100%;
+
+}
+
+.seções {
+    flex-direction: column;
+    width: 530px;
+    align-self: center;
+
+}
+
+/*localização*/
+.Localização {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 13%;
+    margin-left: 10%;
+
+}
+
+.Localização H1 {
+    font-size: clamp(35px, 10px + 2vw, 45px);
+}
+
+.Localização p {
+    margin-left: 13%;
+    font-size: larger;
+    margin-right: 1%;
+}
+
+.Localização img {
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+}
+
+/*Dificuldade*/
+.Dificuldade {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 13%;
+    margin-left: 10%;
+}
+
+.Dificuldade H1 {
+    font-size: clamp(35px, 10px + 2vw, 45px);
+}
+
+.Dificuldade p {
+    margin-left: 13%;
+    font-size: large;
+}
+
+.Dificuldade img {
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+}
+
+/*Distancia*/
+.Distancia {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 13%;
+    margin-left: 10%;
+}
+
+.Distancia H1 {
+    font-size: clamp(35px, 10px + 2vw, 45px);
+}
+
+.Distancia p {
+    margin-left: 15%;
+    font-size: large;
+}
+
+.Distancia img {
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+}
+
+.mapa {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    height: 58vh;
+    width: 70vw;
+    margin-top: 65px;
+    padding: 5px;
+    margin-bottom: -10px;
+    align-items: flex-end;
+}
+
+.responsive-iframe {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    height: 58vh;
+    width: 70vw;
+    margin-top: 65px;
+    padding: 5px;
+    margin-bottom: -10px;
+    align-items: flex-end;
+}
+
+/*informaçoes*/
+.informações {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #4B4B4B;
+    align-items: center;
+}
+
+.blococinza {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: auto;
+
+}
+
+.cinza {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    width: 300px;
+    height: 245px;
+    left: 500px;
+    top: 198px;
+    font-size: clamp(30px, 4px + 2vw, 40px);
+    padding-right: 50px;
+    padding-left: -50px;
+    padding-top: 68px;
+    margin-bottom: 60px;
+    margin-top: 121px;
+    color: #FFD600;
+    border: 2px solid #FFD600;
+
+
+}
+
+.cinza img {
+    margin-left: 347px;
+    width: 100%;
+    height: 3px;
+    margin-top: -25px;
+
+
+}
+
+.imagem img {
+    padding-top: 0px;
+    margin-right: 240px;
+    margin-left: -0.1%;
+    height: 0.15vw;
+    width: 100px;
+    width: 100%;
+
+}
+
+.linha img {
+    margin-top: 150px;
+    height: 0.15vw;
+    width: 100px;
+    margin-left: -0.2%;
+    width: 100%;
+
+}
+
+.b {
+    width: 100%;
+    height: 40%;
+    padding-left: 14%;
+
+}
+
+.b1 {
+    width: 100%;
+    height: 40%;
+    padding-left: 35%;
+
+
+}
+
+/*sobre a trilha*/
+.amarela {
+    display: flex;
+    flex-direction: row;
+    padding: 10px auto;
+    margin: 20px;
+    color: #000000;
+    height: 100%;
+    width: 100%;
+    background-color: #FFD600;
+}
+
+.amarela p {
+    width: 100%;
+    height: 100%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 2%;
+    font-size: clamp(0.5rem, 0.8rem + 1vw, 5rem);
+    justify-items: center auto;
+    text-align: justify;
+}
+
+.amarela img {
+    width: 100%;
+    height: 100%;
+    height: 40vh;
+    width: 60vw;
+    left: 214px;
+    top: 687px;
+    margin: 20px;
+    margin-top: -1%;
+
+}
+
+/*Rodapé*/
+.footer-Home {
+    background-color: #323131;
+    width: 100%;
+    height: 100%;
+    height: 366px;
+    font-size: clamp(0.5rem, 0.8rem + 1vw, 1rem);
+    justify-content: space-evenly;
+
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.Copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.icones-Home li {
+    color: white;
+    margin-left: 10px;
+}
+
+.icones-Home li:hover {
+    text-decoration: none;
+    color: #FFD600;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+/*Icones*/
+.icones-Home {
+    font-size: 30px;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* On screens that are 1800px wide or less, go from four columns to two columns */
+@media screen and (max-width: 1800px) {
+    .header {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+
+
+    .conteudo {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px;
+    }
+
+    .mapa {
+
+        display: flex;
+        height: 100%;
+        height: 50vh;
+        width: 75vw;
+        left: 214px;
+        top: 687px;
+        margin: 1% auto;
+        align-items: flex-end;
+    }
+
+
+    .amarela p {
+        width: 100%;
+        height: 100%;
+        padding-top: 6%;
+        padding-bottom: 3%;
+        padding-left: 5%;
+        padding-right: 0%;
+        font-size: clamp(0.5rem, 0.8rem + 1vw, 5rem);
+        justify-items: center auto;
+        text-align: justify;
+    }
+
+    .amarela img {
+
+        height: 30vh;
+        width: 45vw;
+        left: 214px;
+        top: 687px;
+        padding: 2% auto;
+        margin-top: -1%;
+
+    }
+
+    /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .header {
+            width: 100%;
+            height: 100%;
+        }
+
+        .main {
+            width: 100%;
+            height: 100%;
+        }
+
+        .conteudo {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 25px;
+
+        }
+
+        .trilhas img {
+            margin-left: -40%;
+            margin-top: 20%;
+            Width: 100px;
+            height: 2px;
+            left: 65px;
+            top: 1100px;
+        }
+
+        .imagem img {
+            padding-top: 0px;
+            margin-right: 50px;
+            margin-left: -0.1%;
+            height: 0.15vw;
+            width: 100px;
+            width: 100%;
+
+        }
+
+        .linha img {
+            margin-top: 150px;
+            height: 0.05vw;
+            width: 100px;
+            margin-left: -0.2%;
+            width: 100%;
+
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .header {
+            width: 100%;
+            height: 100%;
+        }
+
+        .titulo {
+            text-align: center;
+
+        }
+
+        .p1 {
+            margin: 2% 0% 2% 15%;
+        }
+
+        .main {
+            width: 100%;
+            height: 100%;
+        }
+
+
+    }
+    @media only screen and (min-width: 960px) {
+        /* styles for browsers larger than 960px; */
+        .headers {
+
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        header {
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: calc(100vh - 100px);
+            background-image: url('../../../public/imagens/image1.png');
+            background-position: center;
+
+        }
+
+        .toolbar {
+
+            background-color: rgba(0, 0, 0, 0.221);
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(0.8px);
+
+        }
+
+        .main {
+            width: 100%;
+            height: 100%;
+        }
+
+        .titulo {
+
+            width: 100%;
+            height: 100vh;
+            top: 100vh;
+            background-color: rgba(0, 0, 0, 0.221);
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(0.8px);
+
+        }
+
+        .p {
+            font-size: 35px;
+            margin-bottom: 50px;
+
+
+        }
+
+        .p1 {
+
+            align-content: center;
+            font-size: 35px;
+            margin-left: 175px;
+            margin-bottom: 50px;
+
+        }
+
+
+    }
+}

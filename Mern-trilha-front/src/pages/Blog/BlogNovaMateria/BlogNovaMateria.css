@@ -1,0 +1,95 @@
+.NoticiasInput{
+    margin-top: 40px;
+    width: 75%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imputNoticiasParte1{
+    display: flex;
+    justify-content: flex-start
+    
+}
+
+.ImputTitulo{
+    width: 100%;
+    height: 8vh;
+    padding: 6px;
+    border-radius: 10px;
+    border-color: #DCDCDC;
+    outline: 50px;
+    color: black;
+    box-shadow: 2px 2px 2px 1px #0000001c;
+}
+
+.ImputImagem{
+    width: 100%;
+    height: 8vh;
+    padding: 6px;
+    border-radius: 10px;
+    border-color: #DCDCDC;
+    outline: 50px;
+    color: black;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 1px #0000001c;
+}
+
+.ImputConteudo{
+    width: 100%;
+    height: 20vh;
+    padding: 6px;
+    border-radius: 10px;
+    border-color: #DCDCDC;
+    outline: 50px;
+    color: black;
+    box-shadow: 2px 2px 2px 1px #0000001c;
+}
+
+.labelTitulo{
+    display: block;
+}
+
+.LabelConteudo{
+    display: block;
+}
+
+.labelImagem{
+    display: block;
+    margin-left: 10px;
+}
+
+
+.NoticiasEnviar{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color:  #ffd700;
+    margin-left: 86.3%;
+    margin-top: 30px;
+}
+
+.ModalNoticiasTexto{
+    font-size: 1.2vw;
+    margin-bottom: 50px;
+}
+
+.ModalNoticiasRadio{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.ModalNoticiasRadioLabel{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 9px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.ModalNoticiasRadioLabel input{
+    margin-left: 10px;
+}

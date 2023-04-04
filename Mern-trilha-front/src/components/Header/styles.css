@@ -1,0 +1,77 @@
+.headers{
+
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    background-size: cover;
+    background-repeat:no-repeat ;
+    width: 100%;
+    width:calc(100vh - 300px) ;
+    background-image:  url('../../../public/imagens/image1.png');
+    background-position:center;
+}
+
+/*barra de pesquisa*/
+.toolbar {
+    display: flex;
+    width: 100%;
+    Top: 10%;
+    Left: 10%;
+    height: 85px;
+    background-color: rgba(0, 0, 0, 0.221);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
+
+
+}
+
+.toolbar ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    font-size: clamp(5px, 6px + 1vw, 14px);
+}
+
+.toolbar li {
+    margin: 0 20px;
+}
+
+.toolbar a {
+    color: white
+}
+
+.toolbar a:hover {
+    text-decoration: none;
+    color: #FFD600;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.toolbar img {
+    position: initial;
+    display: flex;
+    width: 80px;
+    height: calc(100vh - 45px);
+    top: 14px;
+    padding: 0;
+    bottom: 10px;
+    margin-left: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto 60px;
+    top: 54px;
+    height: 35px;
+
+}
