@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: adminuser
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: mern_trilha_back_production, mern_trilha_back_dev, mern_trilha_back_test
+      PGDATA: /var/lib/postgresql/data/pgdata
+      PROD_USER: produser
+      PROD_PASSWORD: prodpass
+      DEV_USER: devuser
+      DEV_PASSWORD: devpass
+      TEST_USER: testuser
+      TEST_PASSWORD: testpass
+    ports:
+      - 5432:5432
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+
+volumes:
+  pg-data:
