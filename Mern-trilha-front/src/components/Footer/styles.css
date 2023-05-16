@@ -30,6 +30,9 @@
 }
 
 .icones {
+   font-size: 30px;
+   list-style-type: none;
+   
    display: flex;
    align-items: center;
    justify-content: space-evenly !important;
@@ -49,7 +52,7 @@ li {
 li:hover {
    text-decoration: none;
    color: #ffd600;
-   
+
    cursor: pointer;
    transition-duration: 0.5s;
 }
