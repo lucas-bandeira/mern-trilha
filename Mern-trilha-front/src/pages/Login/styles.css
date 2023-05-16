@@ -1,99 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:ital,wght@1,300&display=swap');
 
-.tituloLogin{
-    position: absolute;
-    width: 13%;
-    height: 7%;
-    left: 66%;
-    top: 81%;
-    color: #FFD600;
-    font-size: clamp(20px, 10px + 3vw, 55px);
+.bloco_login {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.bloco_img {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 40%;
+   height: 600px;
+   background-color: #fce011;  
+}
+
+.bloco_form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 60%;
+   background-color: #121212;
 
 }
 
-.formLogin{
-    position: absolute;
-    width: 25%;
-    height: 30%;
-    left: 58%;
-    top: 95%;
-       
-}
-#link{
-    position: absolute;
-    top: 75%;
-    color:#FFD600;
-    text-decoration: none;
-    font-size: clamp(5px, 6px + 1vw, 14px);
+.tituloLogin {
+   width: 300px;
+   padding: 10px 80px;
+   color: #ffd600;
+   font-size: clamp(20px, 10px + 3vw, 55px);
+   border-bottom: 1px solid #fce011;
+   margin-bottom: 30px;
 }
 
-.bloco2Login{
-    position: absolute;
-    height: 0.1rem ;
-    width: 27%;
-    top: 90%;
-    left: 57%;
-    background-color: #FFD600;
+.formLogin {
+   display: flex;
+   
 }
 
-
-#enviarlogin{
-    position: absolute;
-    width: 45%;
-    right:0;
-    background:  #FCE011;
-    border: none;
-    padding: 10px;
-    color: #323131;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: clamp(4px, 1px + 2vw, 15px);
-    border-radius: 15px;
-    
+.inputBox {
+   display: flex;
+   flex-direction: column;
+   color: #fce011;
+   
 }
 
-#enviarlogin:hover{
-    text-decoration: none;
-    background:  #323131;
-    color: #FCE011;
-    cursor: pointer;
-    transition-duration: 0.5s;
+.labelInput {
+   padding-bottom: 10px;
+   font-size: clamp(10px, 2px + 2vw, 15px);
 }
 
-.Sair{
-    position: absolute;
-    width: 4%;
-    right:0;
-    border: none;
-    padding: 10px;
-    color: #FCE011;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: clamp(4px, 1px + 2vw, 15px);
-    border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.221);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(0.8px);
+.inputUser {
+   border: none;
+   border-bottom: 1px solid white;
+   outline: none;
+   width: 300px;
+   padding: 6px;
+   border-radius: 8px;
+   color: #323131;
+   font-size: clamp(5px, 5px + 3vw, 20px);
 }
-.Sair:hover{
-    text-decoration: none;
-    
-    color: red;
-    cursor: pointer;
-    transition-duration: 0.5s;
+
+.error-message {
+   color: rgb(240, 47, 47);
 }
-@media screen and (max-width: 1400px){
 
-    #link{
-        top: 120%;
-    }
+.cadastro_enviar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
 
-    .tituloLogin{
-        top: 78%;
-        left: 66%;
-    }
+#link {
+   color: #ffd600;
+   text-decoration: none;
+   font-size: clamp(5px, 6px + 1vw, 14px);
+}
 
-    .bloco2Login{
-        top: 89%;
-    }
+#enviarlogin {
+   background: #fce011;
+   border: none;
+   padding: 10px;
+   color: #323131;
+   font-weight: bold;
+   cursor: pointer;
+   font-size: clamp(4px, 1px + 2vw, 15px);
+   border-radius: 10px;
+}
+
+#enviarlogin:hover {
+   text-decoration: none;
+   background: #323131;
+   color: #fce011;
+   cursor: pointer;
+   transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 1400px) {
+   #link {
+      top: 120%;
+   }
+
+   .tituloLogin {
+      top: 78%;
+      left: 66%;
+   }
+
+   .bloco2Login {
+      top: 89%;
+   }
 }
