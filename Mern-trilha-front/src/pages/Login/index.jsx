@@ -108,7 +108,7 @@ function Login() {
 
                      <div className="cadastro_enviar">
                         <a id="link" href="/cadastro">
-                           Cadastre-se aqui
+                           Cadastre-se aqui.
                         </a>
                         <input
                            type="submit"
