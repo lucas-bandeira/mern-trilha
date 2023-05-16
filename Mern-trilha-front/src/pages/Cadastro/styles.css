@@ -1,213 +1,144 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-
-/* cabeçalho do site*/
-.cabecario{
-    
-    width: 100%;
-    height: 100%;
-    background-repeat:no-repeat ; 
-    background-image:  url('../../../public/imagens/capa2.png');
+.bloco_cadastro {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
 }
 
-.pLogin{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    font-size: clamp(20px, 20px + 3vw, 120px) ;
-    font-family: 'Open Sans';
-    top: 20%;
-    left: 43%;
+.bloco_img {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 40%;
+   height: 600px;
+   background-color: #fce011;  
 }
 
-.p1Login{
-    display: flex;
-    position: absolute;
-    color: #FFD600;
-    font-size: clamp(10px, 6px + 3vw, 100px) ;
-    top: 58%;
-    left: 43%;
+.bloco_form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 60%;
+   background-color: #121212;
 }
 
-
-#logoLog{
-    position: absolute;
-    display: flex;
-    width: 14%;
-    height: 58%;
-    top: 24%;
-    left: 21%;
+.tituloCadastro {
+   padding: 10px 80px;
+   text-align: center;
+   color: #ffd600;
+   font-size: clamp(20px, 10px + 3vw, 55px);
+   border-bottom: 1px solid #fce011;
+   margin-bottom: 30px;
 }
 
-
-body{
-    font-family: Inter;
-    background-color: #121212 ;
-
+.formCadastro {
+   display: flex;
+   
 }
 
-
-.bloco{
-        display: flex;
-        height: 600px ;
-        width: 40%;
-        background-color:#FCE011;
-        background-repeat:no-repeat ;
+.inputBox_cadastro {
+   display: flex;
+   flex-direction: column;
+   color: #fce011;
 }
 
-
-#logoImg{
-    display: flex;
-    width: 4%;
-    height: 4%;
-    margin-left: 17%;
-    margin-top: -360px;
+.tipo_usuario {
+   border: none;
+   width: 100%;
+   padding: 6px;
+   margin-bottom: 30px;
+   color: #323131;
+   font-size: clamp(5px, 5px + 3vw, 20px);
+   width: 390px;
 }
 
-.titulo{
-    position: absolute;
-    width: 13%;
-    height: 7%;
-    left: 64%;
-    top: 79%;
-    color: #FFD600;
-    font-size: clamp(20px, 10px + 3vw, 55px);
+.labelInput {
+   padding-bottom: 10px;
+   font-size: clamp(10px, 2px + 2vw, 15px);
 }
 
-.form{
-    position: absolute;
-    width: 27%;
-    height: 35%;
-    left: 58%;
-    top: 93%;
-       
-}
-.tipo_usuario{
-    border: none;
-    width: 100%;
-    padding: 6px;
-    color: #323131;
-    font-size: clamp(5px, 5px + 3vw, 20px);
-    border-bottom: 1px solid white;
-}
-.inputBox{
-    position: relative;
-    padding: 7px;
-}
-
-.inputUser{
-    border: none;
-    border-bottom: 1px solid white;
-    outline: none;
-    width: 100%;
-    padding: 6px;
-    border-radius: 8px;
-    color: #323131;
-    font-size: clamp(5px, 5px + 3vw, 20px);
-
-}
-
-.labelInput{
-    position: absolute;
-    top: 17px;
-    left: 13px;
-    pointer-events: none; 
-    transition: .5s;
-    font-size: clamp(10px, 2px + 2vw, 15px);
-    color: #323131;
-}
-
-
-/* faz o movimento da caixinha de seleção*/
-.inputUser:focus ~ .labelInput, 
-.inputUser:valid ~ .labelInput{     
-    top: -20px;
-    font-size: 13px;
-    color: #FFD600;
-}
-
-#enviarcadastro{
-    position: absolute;
-    width: 45%;
-    right:0;
-    background:  #FCE011;
-    border: none;
-    padding: 10px;
-    color: #323131;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: clamp(4px, 1px + 2vw, 15px);
-    border-radius: 15px;
-    
-}
-
-#enviarcadastro:hover{
-    text-decoration: none;
-    background:  #323131;
-    color: #FCE011;
-    cursor: pointer;
-    transition-duration: 0.5s;
-}
-
-.bloco2{
-    position: absolute;
-    display: flex;
-    height: 0.5px ;
-    width: 28%;
-    left: 57%;
-    top: 89%;
-    background-color: #FFD600;
+.inputUser_cadastro {
+   border: none;
+   border-bottom: 1px solid white;
+   outline: none;
+   width: 300px;
+   padding: 6px;
+   border-radius: 8px;
+   color: #323131;
+   font-size: clamp(5px, 5px + 3vw, 20px);
+   width: 390px;
 }
 
 .error-message {
-    color: rgb(240, 47, 47);
+   color: rgb(240, 47, 47);
 }
+
+.enviar_cadastro {
+   display: flex;
+   justify-content: flex-end;
+}
+
+#enviarcadastro {
+   background: #fce011;
+   border: none;
+   padding: 10px;
+   color: #323131;
+   font-weight: bold;
+   cursor: pointer;
+   font-size: clamp(4px, 1px + 2vw, 15px);
+   border-radius: 10px;
+}
+
+#enviarcadastro:hover {
+   text-decoration: none;
+   background: #323131;
+   color: #fce011;
+   cursor: pointer;
+   transition-duration: 0.5s;
+}
+
 @media screen and (max-width: 900px) {
+   .pLogin {
+      left: 46%;
+      top: 36%;
+   }
 
-    .pLogin{
-        left: 46%;
-        top: 36%;
-    }
+   .p1Login {
+      left: 46%;
+      top: 46%;
+   }
 
-    .p1Login{
-        left: 46%;
-        top: 46%;
-    }
+   #logoLog {
+      position: absolute;
+      display: flex;
+      width: 23%;
+      height: 33%;
+      top: 26%;
+      left: 10%;
+   }
 
-    #logoLog{
-        position: absolute;
-        display: flex;
-        width: 23%;
-        height: 33%;
-        top: 26%;
-        left: 10%;
-    }
+   #logoImg {
+      display: flex;
+      width: 9%;
+      height: 9%;
+      margin-top: -360px;
+   }
 
-    #logoImg{
-        display: flex;
-        width: 9%;
-        height: 9%;
-        margin-top: -360px;
-    }
+   .titulo {
+      position: absolute;
+      width: 13%;
+      height: 7%;
+      left: 61.5%;
+      top: 81%;
+      color: #ffd600;
+      font-size: clamp(20px, 10px + 3vw, 55px);
+   }
 
-    .titulo{
-        position: absolute;
-        width: 13%;
-        height: 7%;
-        left: 61.5%;
-        top: 81%;
-        color: #FFD600;
-        font-size: clamp(20px, 10px + 3vw, 55px);
-    }
-   
-    .inputBox{
-        position: relative;
-        padding: 1px;
-    }
-
-
+   .inputBox {
+      position: relative;
+      padding: 1px;
+   }
 }
-
-    
