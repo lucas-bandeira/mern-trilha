@@ -8,7 +8,7 @@ function cabeca() {
         <header className="cabecario">
            
                 <div className="toolbar">
-                    <nav>
+                    <nav href="https://blog.caminhosdoplanaltocentral.com.br/">
                         <img src="/imagens/logo.png" alt="logo" id="lo"/>
                         <ul>
                                 <li>
