@@ -17,7 +17,7 @@ export function Header() {
                         <Link to="/">INÍCIO</Link>
                      </li>
                      <li>
-                        <a>BLOG</a>
+                        <a href="https://blog.caminhosdoplanaltocentral.com.br" target="_blank">BLOG</a>
                      </li>
                      <li>
                         <Link to="/Sobre">SOBRE</Link>
